@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle>
+<file name="test2.php">
+  <error line="14" column="1" severity="error" message="Unreachable statement - code above always terminates." source="deadCode.unreachable" />
+</file>
+</checkstyle>
