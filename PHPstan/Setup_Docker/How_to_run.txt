@@ -1,0 +1,3 @@
+Run this two commands:
+- docker pull ghcr.io/phpstan/phpstan:2-php8.2  
+- docker run --rm -v ${PWD}:/app ghcr.io/phpstan/phpstan:2-php8.2 analyse /app/test.php --level=5
