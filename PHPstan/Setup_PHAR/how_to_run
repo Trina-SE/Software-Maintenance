@@ -1,0 +1,2 @@
+- First download phpstan.phar from https://github.com/phpstan/phpstan/releases
+- Run the command: php phpstan.phar analyse test.php --level=5  
