@@ -1,0 +1,7 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Variable \$notDefined might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: examples.php
