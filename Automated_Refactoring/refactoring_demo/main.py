@@ -7,7 +7,6 @@ from data_processor import DataProcessor
 from calculator import Calculator
 
 def main():
-    """Main entry point"""
     print("=== Refactoring Demo Project ===\n")
     
     # Test User Manager

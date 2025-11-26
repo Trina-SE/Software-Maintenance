@@ -3,24 +3,19 @@ Calculator Module - Contains magic numbers and poor error handling
 """
 
 class Calculator:
-    """Basic calculator with issues"""
     
     def add(self, a, b):
-        """Add two numbers"""
         return a + b
     
     def multiply(self, a, b):
-        """Multiply two numbers"""
         return a * b
     
     def divide(self, a, b):
-        """Divide two numbers"""
         if b == 0:
             return 0
         return a / b
     
     def calc_discount(self, price, discount_type):
-        """Calculate discount - contains magic numbers"""
         if discount_type == 'A':
             return price * 0.1
         elif discount_type == 'B':
@@ -33,11 +28,9 @@ class Calculator:
             return 0
     
     def calc_tax(self, amount):
-        """Calculate tax - magic number"""
         return amount * 0.18
     
     def calc_shipping(self, weight):
-        """Calculate shipping cost - magic numbers"""
         if weight <= 1:
             return 50
         elif weight <= 5:
@@ -50,7 +43,6 @@ class Calculator:
             return 300
     
     def process_order(self, p, q, dt):
-        """Process order - long function doing multiple things"""
         if p <= 0 or q <= 0:
             return None
         

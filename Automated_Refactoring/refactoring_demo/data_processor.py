@@ -3,10 +3,8 @@ Data Processing Module - Contains code duplication and poor error handling
 """
 
 class DataProcessor:
-    """Processes data"""
     
     def process_numbers(self, data):
-        """Process a list of numbers"""
         result = []
         total = 0
         count = 0
@@ -26,7 +24,6 @@ class DataProcessor:
         }
     
     def process_strings(self, data):
-        """Process a list of strings"""
         result = []
         total = 0
         count = 0
@@ -46,7 +43,6 @@ class DataProcessor:
         }
     
     def process_mixed(self, data):
-        """Process mixed data"""
         result = []
         total = 0
         count = 0
@@ -70,7 +66,6 @@ class DataProcessor:
         }
     
     def calc_stats(self, numbers):
-        """Calculate statistics"""
         if not numbers or len(numbers) == 0:
             return None
         
