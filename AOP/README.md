@@ -9,6 +9,23 @@ Simple Spring Boot example demonstrating a logging aspect and a small greeting A
 **Prerequisites**
 - Java 17+ (project tested with Java 23.0.1).
 - Maven wrapper is included (`mvnw` / `mvnw.cmd`).
+- Git (to clone the repository).
+
+Clone & setup
+
+1. Clone the repository:
+
+```powershell
+git clone https://github.com/Trina-SE/Software-Maintenance.git
+cd aop-logging
+```
+
+2. Verify Java and Maven wrapper work:
+
+```powershell
+java -version
+.\mvnw.cmd --version
+```
 
 Getting started (Windows PowerShell)
 

@@ -1,0 +1,65 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+.flattened-pom.xml
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.classpath
+.project
+.settings/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Build & Runtime
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Spring Boot
+application-*.properties
+application-*.yml
+application.yml
+application-local.properties
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Local development
+.env
+.env.local
+local.properties
+
+# Node (if using frontend build tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python (if using Python tools)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
