@@ -17,7 +17,7 @@ Clone & setup
 
 ```powershell
 git clone https://github.com/Trina-SE/Software-Maintenance.git
-cd aop-logging
+cd AOP
 ```
 
 2. Verify Java and Maven wrapper work:
@@ -82,7 +82,7 @@ Quick run helper (`erun`)
 
 You can use the included `erun` wrappers to start the application more conveniently from the project root:
 
-- Windows CMD:
+- After cloning repo,Run this command:
 
 ```powershell
 .\erun.cmd
